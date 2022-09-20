@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link rel="stylesheet" href="SCSS/style.css"/>
+    <script src="Script.js" defer></script>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="box">
+          <nav>
+            <h2 class="banner">Enjoy the Best Game Around!</h2>
+            <ul>
+              <li><a href="#">Rules</a></li>
+              <li><a href="#">History</a></li>
+            </ul>
+          </nav>
+  
+          <div class="hero-content">
+            <div>
+              <h3>Play All Day</h3>
+              <br/>
+              <h3>You Rock</h3>
+              <p class="hero-text">
+                A Great Time Waster.
+              </p>
+              <a href="#" class="btn-primary">Like Us</a>
+              <a href="#" class="btn-secondary">Follow Us</a>
+            </div>
+            <img
+              src="https://static.wikia.nocookie.net/bigbangtheory/images/7/7d/RPSLS.png/revision/latest?cb=20120822205915"
+            />
+          </div>
+        </div>
+      </header>
+    <h1> Let's Play Rock Paper Scissors Lizard Spock!</h1>
+    <p id="directions">Click on an emoji to start!</p>
+    <hr />
+    <div class="selections">
+        <button class="selection" data-selection="rock">🗿</button>
+        <button class="selection" data-selection="paper">🧻</button>
+        <button class="selection" data-selection="scissors">✂️</button>
+        <button class="selection" data-selection="lizard">🦎</button>
+        <button class="selection" data-selection="spock">🖖</button>
+    </div>
+    <div class="socreboard">
+        <p>
+            <span class="results-score" data-your-score>0</span><span id="winner">Winner</span>
+            <span class="results-score" data-computer-score>0</span>
+        </p>
+    </div>
+    <div class="score">
+        <div>You</div>
+        <div data-final-column>Computer</div>
+
+        <div class="score-selection">🗿</div>
+        <div class="score-selection winner">🧻</div>
+    </div>
+    
+</body>
+</html>

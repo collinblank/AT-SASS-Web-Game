@@ -1,0 +1,8 @@
+//SCSS Functions Light and Dark Text Combo
+@function pick-color($color) {
+    @if(lightness($color) > 60) {
+        @return black;
+    } @else {
+        @return white;
+    }
+}
